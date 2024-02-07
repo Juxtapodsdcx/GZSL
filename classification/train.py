@@ -52,7 +52,7 @@ def main(cfg: DictConfig):
             raise ValueError('Unexpected sampling strategy')
     else:
         similarity_matrix_intent = read_intent_similarity_matrix(intent_info_path, "intent_similarity/simcse", train_intents)
-        similarity_matrix_utter = read_uttr_similarity_matrix(data_path, "sentence_bert_100.txt", train_df.index.values)
+        similarity_matrix_utter = read_uttr_similarity_matrix(data_path, "simcse_100.txt", train_df.index.values)
 
 
 

@@ -1,4 +1,4 @@
-# Generalized Zero-Shot intent classification
+# Generalized Zero-Shot Intent Classification
 
 ## Data
 
